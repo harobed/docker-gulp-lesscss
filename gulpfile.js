@@ -19,12 +19,12 @@ function _less(cb) {
 
 function _watch(cb) {
     livereload.listen();
-    watch('styles/*.less', less)
+    watch('styles/*.less', { ignoreInitial: false }, _less)
     cb();
 }
 
 exports.less = _less
-exports.watch = series(_less, _watch)
+exports.watch = series(_watch)
 
 // This code fix CTRL-C Nodejs issue (see https://stackoverflow.com/questions/39741441/gulp-watch-task-doest-exit-on-ctrl-c)
 process.on('SIGINT', function () {
