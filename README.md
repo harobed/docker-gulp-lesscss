@@ -2,15 +2,13 @@
 
 This is a LessCSS builder example based on:
 
-- Docker and docker-compose
-
-All other services are installed in Docker:
-
 - NodesJS
 - Gulp 4
 - [less](https://github.com/less/less.js)
 - [autoprefixer](https://github.com/postcss/autoprefixer)
 - [clean-css](https://github.com/jakubpawlowicz/clean-css)
+
+All this stuff are executed in Docker container.
 
 
 ## Prerequisites
