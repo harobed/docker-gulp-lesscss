@@ -7,6 +7,7 @@ This is a LessCSS builder example based on:
 - [less](https://github.com/less/less.js)
 - [autoprefixer](https://github.com/postcss/autoprefixer)
 - [clean-css](https://github.com/jakubpawlowicz/clean-css)
+- [normalize.css](https://necolas.github.io/normalize.css/)
 
 All this stuff are executed in Docker container.
 
